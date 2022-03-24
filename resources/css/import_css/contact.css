@@ -1,0 +1,39 @@
+.contact{
+    background-color: #1a463d;
+    padding: 3%;
+    color: white;
+    text-align: center;
+}
+
+.contact .infocontact{
+    margin: 2em 0em;
+    padding: 3%;
+}
+
+.contact iframe{
+    padding: 3%;
+    width: 94%;
+    max-width: 375px;
+    height: 375px;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+
+    .contact{
+        margin: 13%;
+    }
+    
+  
+  }
+
+@media all and (min-width: 900px){
+
+    .contact{
+        padding: 2em 0%;
+        margin: 5%;
+        width: 40%;
+    }
+    
+  
+}
+

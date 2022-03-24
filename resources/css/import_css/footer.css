@@ -1,0 +1,23 @@
+footer {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 2em 3%;
+  }
+  footer a:hover {
+    transition: 1s;
+    color: #ac2724;
+  }
+  
+  footer .adresse{
+    color: white;
+  }
+  
+  footer .reseauxsociaux{
+    padding: 1em 0em;
+    font-size: 2em;
+  }
+
+
+@media all and (min-width: 600px){
+  
+}

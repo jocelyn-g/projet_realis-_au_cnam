@@ -1,0 +1,73 @@
+.slider{
+    width: 100%;
+    background-color: #1a463d;
+  }
+  .slider .imgslide {
+    height: 20em;
+  }
+  .slider .imgslide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .inforestaurant{
+    margin: 0em auto;
+    padding: 5em 3%;
+    width: 94%;
+    max-width: 375px;
+    color: white;
+  }
+  
+  .inforestaurant h1{
+    text-align: justify;
+  }
+  .inforestaurant p{
+    padding: 1em 0%;
+    text-align: justify;
+  }
+
+
+  @media (max-width: 900px) and (min-width: 600px){
+
+    .slider .imgslide {
+      height: 30em;
+    }
+  
+  }
+
+  @media (max-width: 1200px) and (min-width: 900px){
+
+    .slider{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .slider .imgslide {
+      width: 60%;
+      height: 30em;
+    }
+
+    .inforestaurant{
+      margin: 2em 0em;
+      padding: 3%;
+      width: 34%;
+    }
+    
+  
+  }
+
+  @media all and (min-width: 1200px){
+
+    .slider{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .slider .imgslide {
+      width: 60%;
+      height: 30em;
+    }
+    
+  
+  }

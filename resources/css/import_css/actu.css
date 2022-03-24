@@ -1,0 +1,24 @@
+.actu {
+    text-align: center;
+    margin: auto;
+  }
+  .actu div {
+    padding: 2em 3%;
+  }
+  
+  .actu div .textactu{
+    text-align: justify;
+    padding: 2em 0em;
+  }
+  .actu div .dateactu{
+    text-align: end;
+    font-style: italic;
+  }
+
+  @media all and (min-width: 600px){
+
+  .actu div {
+    padding: 2em 13%;
+  }
+  
+  }

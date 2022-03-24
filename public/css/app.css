@@ -1,0 +1,386 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    position: relative;
+  }
+  header .logo {
+    width: 20em;
+  }
+  header .logo img {
+    width: 200px;
+  }
+  header .navigation {
+    width: 50em;
+    text-align: end;
+  }
+  header .navigation nav a {
+    padding: 0.5em;
+    color: #1b1b1b;
+  }
+  header .navigation nav a:hover {
+    color: red;
+    transition: 1s;
+    font-weight: bolder;
+  }
+  
+  header .navigation nav .menudesk{
+    display: none;
+  }
+  
+  header .navigation nav .menuburger{
+    margin: 1em 0em;
+  }
+  header .navigation nav .menuburger .burger{
+    width: 2em;
+    height: 2em;
+    background-color: transparent;
+    border: transparent;
+    color: #1b1b1b;
+    font-size: 3em;
+  }
+  
+  header .navigation nav .menuburger .sous_menu{
+    display: none;
+    position: absolute;
+    right: 0em;
+    bottom: -16em;
+    width: 100%;
+    background-color: #1a463d;
+    list-style: none;
+  }
+  
+  header .navigation nav .menuburger .sous_menu li{
+    padding: 2em;
+    border: 3px solid #1b1b1b;
+  }
+  
+  header .navigation nav .menuburger .sous_menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  header .navigation nav .menuburger:hover .sous_menu{
+    display: block;
+  }
+
+
+@media all and (min-width: 600px){
+
+header .navigation nav .menudesk{
+  display: block;
+}
+
+header .navigation nav .menuburger{
+  display: none;
+}
+
+}
+.slider{
+    width: 100%;
+    background-color: #1a463d;
+  }
+  .slider .imgslide {
+    height: 20em;
+  }
+  .slider .imgslide img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .inforestaurant{
+    margin: 0em auto;
+    padding: 5em 3%;
+    width: 94%;
+    max-width: 375px;
+    color: white;
+  }
+  
+  .inforestaurant h1{
+    text-align: justify;
+  }
+  .inforestaurant p{
+    padding: 1em 0%;
+    text-align: justify;
+  }
+
+
+  @media (max-width: 900px) and (min-width: 600px){
+
+    .slider .imgslide {
+      height: 30em;
+    }
+  
+  }
+
+  @media (max-width: 1200px) and (min-width: 900px){
+
+    .slider{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .slider .imgslide {
+      width: 60%;
+      height: 30em;
+    }
+
+    .inforestaurant{
+      margin: 2em 0em;
+      padding: 3%;
+      width: 34%;
+    }
+    
+  
+  }
+
+  @media all and (min-width: 1200px){
+
+    .slider{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .slider .imgslide {
+      width: 60%;
+      height: 30em;
+    }
+    
+  
+  }
+.actu {
+    text-align: center;
+    margin: auto;
+  }
+  .actu div {
+    padding: 2em 3%;
+  }
+  
+  .actu div .textactu{
+    text-align: justify;
+    padding: 2em 0em;
+  }
+  .actu div .dateactu{
+    text-align: end;
+    font-style: italic;
+  }
+
+  @media all and (min-width: 600px){
+
+  .actu div {
+    padding: 2em 13%;
+  }
+  
+  }
+.categorie h2{
+    padding: 3% 3% 0% 3%;
+}
+
+.plat{
+    background-color: #1a463d;
+    text-align: end;
+    color: white;
+    margin: 3% 0%;
+    padding: 1% 3%;
+}
+
+
+@media all and (min-width: 700px){
+
+
+    .categorie{
+        max-width: 40em;
+        margin: auto;
+    }
+    
+    .plat{
+        max-width: 40em;
+        margin: 3% auto;
+    }
+    
+  
+}
+.formulaire{
+    text-align: center;
+}
+
+.formulaire .formreservation{
+    background-color: #1a463d;
+    padding: 3%;
+}
+
+.formulaire .formreservation .input{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+    max-width: 375px;
+    color: white;
+    font-size: 18px;
+}
+.formulaire .formreservation .input input{
+    width: 15em;
+    height: 3em;
+}
+
+.formulaire .formreservation .input select{
+    width: 15em;
+    height: 3em;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+
+    .formulaire .formreservation{
+        margin: 13%;
+    }
+    
+  
+  }
+
+  @media all and (min-width: 900px){
+
+    .formulaire{
+        margin: 5%;
+        width: 40%;
+    }
+    
+  
+}
+
+.horaire{
+    text-align: center;
+    margin: 2em 3%;
+    padding: 2em 0em;
+    background-color: #1a463d;
+    color: white;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+
+    .horaire{
+        margin: 13%;
+    }
+    
+  
+  }
+
+@media all and (min-width: 900px){
+
+    .horaire{
+        margin: 5%;
+        width: 40%;
+    }
+    
+  
+}
+.contact{
+    background-color: #1a463d;
+    padding: 3%;
+    color: white;
+    text-align: center;
+}
+
+.contact .infocontact{
+    margin: 2em 0em;
+    padding: 3%;
+}
+
+.contact iframe{
+    padding: 3%;
+    width: 94%;
+    max-width: 375px;
+    height: 375px;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+
+    .contact{
+        margin: 13%;
+    }
+    
+  
+  }
+
+@media all and (min-width: 900px){
+
+    .contact{
+        padding: 2em 0%;
+        margin: 5%;
+        width: 40%;
+    }
+    
+  
+}
+
+
+footer {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 2em 3%;
+  }
+  footer a:hover {
+    transition: 1s;
+    color: #ac2724;
+  }
+  
+  footer .adresse{
+    color: white;
+  }
+  
+  footer .reseauxsociaux{
+    padding: 1em 0em;
+    font-size: 2em;
+  }
+
+
+@media all and (min-width: 600px){
+  
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 36px;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+}
+p{
+  font-size: 18px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+}
+.btn{
+  background-color: #ac2724;
+  margin: auto;
+  padding: 1em 0em;
+  width: 100%;
+  max-width: 375px;
+  text-align: center;
+}
+.btn:hover {
+  transition: 1s;
+  opacity: 0.8;
+}
+
+
+
+
+@media all and (min-width: 900px){
+
+    .flex{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+  
+}

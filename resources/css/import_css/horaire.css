@@ -1,0 +1,26 @@
+.horaire{
+    text-align: center;
+    margin: 2em 3%;
+    padding: 2em 0em;
+    background-color: #1a463d;
+    color: white;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+
+    .horaire{
+        margin: 13%;
+    }
+    
+  
+  }
+
+@media all and (min-width: 900px){
+
+    .horaire{
+        margin: 5%;
+        width: 40%;
+    }
+    
+  
+}

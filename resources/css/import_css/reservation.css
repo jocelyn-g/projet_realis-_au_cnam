@@ -1,0 +1,45 @@
+.formulaire{
+    text-align: center;
+}
+
+.formulaire .formreservation{
+    background-color: #1a463d;
+    padding: 3%;
+}
+
+.formulaire .formreservation .input{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+    max-width: 375px;
+    color: white;
+    font-size: 18px;
+}
+.formulaire .formreservation .input input{
+    width: 15em;
+    height: 3em;
+}
+
+.formulaire .formreservation .input select{
+    width: 15em;
+    height: 3em;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+
+    .formulaire .formreservation{
+        margin: 13%;
+    }
+    
+  
+  }
+
+  @media all and (min-width: 900px){
+
+    .formulaire{
+        margin: 5%;
+        width: 40%;
+    }
+    
+  
+}

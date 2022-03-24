@@ -1,0 +1,69 @@
+/*------------------------------HEADER------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    position: relative;
+  }
+  header .logo {
+    width: 20em;
+  }
+  header .logo img {
+    width: 100%;
+  }
+  header .navigation {
+    width: 50em;
+    text-align: end;
+  }
+  header .navigation nav a {
+    padding: 0.5em;
+    color: #1b1b1b;
+  }
+  header .navigation nav a:hover {
+    color: red;
+    transition: 1s;
+    font-weight: bolder;
+  }
+  
+  header .navigation nav .menudesk{
+    display: none;
+  }
+  
+  header .navigation nav .menuburger{
+    margin: 1em 0em;
+  }
+  header .navigation nav .menuburger .burger{
+    width: 2em;
+    height: 2em;
+    background-color: transparent;
+    border: transparent;
+    color: #1b1b1b;
+    font-size: 3em;
+  }
+  
+  header .navigation nav .menuburger .sous_menu{
+    display: none;
+    position: absolute;
+    right: 0em;
+    bottom: -16em;
+    width: 100%;
+    background-color: #1a463d;
+    list-style: none;
+  }
+  
+  header .navigation nav .menuburger .sous_menu li{
+    padding: 2em;
+    border: 3px solid #1b1b1b;
+  }
+  
+  header .navigation nav .menuburger .sous_menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  header .navigation nav .menuburger:hover .sous_menu{
+    display: block;
+  }
